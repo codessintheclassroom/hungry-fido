@@ -15,6 +15,7 @@ class PetCard extends Component<Props> {
       <Card.Body>
         <Card.Title>{this.props.pet.name}</Card.Title>
         <Card.Text>{this.props.pet.description}</Card.Text>
+        <Card.Text>{this.props.pet.status}</Card.Text>
         <Button variant="primary">Adopt</Button>
       </Card.Body>
       </Card>
